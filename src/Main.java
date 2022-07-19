@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-    int firstFriday=3;
-
-    for (;firstFriday<=31;firstFriday=firstFriday+7)
-    {
-        System.out.println("Сегодня пятница, "+ firstFriday+"-е число. Небходимо подготовить отчет");
+    int cometFly=79;
+    int currentYear=2022;
+    for (int i=0;i<2100;i=i+cometFly)
+    {if (currentYear-200<i)
+    {System.out.println(i);}
     }
-
     }
 }
